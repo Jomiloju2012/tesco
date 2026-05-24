@@ -1,6 +1,4 @@
-import react from "react";
 import { Link } from "react-router-dom";
-
 
 export default function Navbar() {
 
@@ -20,13 +18,17 @@ export default function Navbar() {
         {
             Name: "About",
             Link: "/about"
+        },
+        {
+            Name: "Price Checker",
+            Link: "/TescoPriceChecker"
         }
     ]
 
   return (
     <header className="flex justify-between items-center py-5 shadow-lg bg-white sticky top-0 z-50" >
         <Link to="/" className="text-2xl font-bold text-blue-700">
-        <img className="w-70" src="/tesco.png" alt="tesco" />
+        <img className="w-36" src="/tesco.png" alt="tesco" />
         </Link>
 
         <nav>

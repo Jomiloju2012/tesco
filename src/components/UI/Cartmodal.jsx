@@ -13,7 +13,7 @@ export default function Cartmodal({ setShowCart }) {
 
   return (
     <div className="h-screen bg-blue-700/30 flex justify-center items-center fixed top-0 left-0 w-full z-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg min-w-75 relative max-w-xl w-full">
+      <div className="bg-white p-6 rounded-lg shadow-lg min-w-[18rem] relative max-w-xl w-full">
         <button
           className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
           onClick={() => setShowCart(false)}

@@ -3,11 +3,11 @@ const About = () => {
     <div className="bg-[#2563eb] min-h-screen text-white font-sans p-8 flex flex-col items-center">
       <div
         style={{
-          backgroundImage: "url('public/tesco.jfif')",
+          backgroundImage: "url('/tesco.jfif')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="w-full h-30 max-w-4xl text-center mb-12 flex-justify-center items-center rounded-lg shadow-lg border-4 border-white flex flex-col justify-center"
+        className="w-full h-80 max-w-4xl text-center mb-12 items-center rounded-lg shadow-lg border-4 border-white flex flex-col justify-center"
       >
         <h2 className="text-4xl font-bold text-black uppercase tracking-widest">
           ABOUT US
@@ -29,16 +29,16 @@ const About = () => {
         </div>
         <div className="rounded-lg overflow-hidden shadow-xl border-4 border-white">
           <img
-            src="public/customer.jpg"
+            src="/customer.jpg"
             alt="Customer shopping in Tesco"
             className="w-full h-auto"
-          />{" "}
+          />
         </div>
       </div>
 
       <div className="w-full max-w-4xl text-center mb-12">
-        <h3 className="text-4xl font-bold mb-8 text-color light gray-50">
-          Our Footprint{" "}
+        <h3 className="text-4xl font-bold mb-8 text-blue-50">
+          Our Footprint
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           {/* Stats and Description */}
@@ -70,7 +70,7 @@ const About = () => {
           <div className="flex flex-col items-center">
             <div className="bg-blue-400 p-4 rounded-xl shadow-inner w-full">
               <img
-                src="public/teco map.png"
+                src="/teco map.png"
                 alt="Global Footprint Map"
                 className="w-full h-auto opacity-80"
               />
